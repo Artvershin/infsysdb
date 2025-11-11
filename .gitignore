@@ -2,7 +2,7 @@
 *.pyc
 __pycache__/
 
-# QGIS project files (uncomment if you don't want to track them)
-# *.qgs
-# *.qgz
+# QGIS project files
+*.qgs
+*.qgz
 *.aux.xml
