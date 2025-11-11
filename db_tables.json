@@ -1,0 +1,138 @@
+{
+    "satellite_types": [
+        "satellite_type_id",
+        "name"
+    ],
+    "object_types": [
+        "object_type_id",
+        "name"
+    ],
+    "objects": [
+        "object_id",
+        "object_type_id",
+        "name",
+        "shape_location",
+        "description"
+    ],
+    "report_types": [
+        "report_type_id",
+        "name",
+        "description"
+    ],
+    "minerals": [
+        "mineral_id",
+        "name"
+    ],
+    "object_minerals": [
+        "object_id",
+        "mineral_id"
+    ],
+    "reports": [
+        "report_id",
+        "area_of_interest_id",
+        "report_type",
+        "path"
+    ],
+    "sources": [
+        "source_id",
+        "name",
+        "link"
+    ],
+    "object_areas": [
+        "area_of_interest_id",
+        "object_id"
+    ],
+    "satellites": [
+        "satellite_id",
+        "name",
+        "satellite_type"
+    ],
+    "indexes": [
+        "index_id",
+        "name",
+        "description"
+    ],
+    "index_formulas": [
+        "index_id",
+        "satellite_id",
+        "formula"
+    ],
+    "processed_image_indexes": [
+        "processed_image_id",
+        "index_id",
+        "position"
+    ],
+    "raw_images": [
+        "raw_image_id",
+        "satellite_id",
+        "source_id",
+        "coordinate_x",
+        "coordinate_y",
+        "width",
+        "height",
+        "date",
+        "crs",
+        "location",
+        "cloudness"
+    ],
+    "raw_processed_images": [
+        "raw_image_id",
+        "processed_image_id"
+    ],
+    "processed_images": [
+        "processed_image_id",
+        "coordinate_x",
+        "coordinate_y",
+        "width",
+        "height",
+        "crs",
+        "location",
+        "pixel_size"
+    ],
+    "raw_image_channels": [
+        "raw_image_id",
+        "channel_id",
+        "position"
+    ],
+    "channels": [
+        "channel_id",
+        "satellite_id",
+        "name",
+        "description",
+        "central_wavelength",
+        "pixel_size"
+    ],
+    "processed_image_channels": [
+        "processed_image_id",
+        "channel_id",
+        "position"
+    ],
+    "processed_image_areas": [
+        "processed_image_id",
+        "area_of_interest_id"
+    ],
+    "processed_processed_images": [
+        "parent_id",
+        "child_id"
+    ],
+    "processing_methods": [
+        "processing_method_id",
+        "name",
+        "description"
+    ],
+    "processed_image_methods": [
+        "processed_image_id",
+        "processing_method_id",
+        "sequence"
+    ],
+    "areas_of_interest": [
+        "area_of_interest_id",
+        "coordinate_x",
+        "coordinate_y",
+        "width",
+        "height",
+        "crs",
+        "shape_location",
+        "description"
+    ]
+}
