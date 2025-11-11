@@ -1,2 +1,8 @@
-# Ignore all QGIS .aux.xml files
+# Python compiled files
+*.pyc
+__pycache__/
+
+# QGIS project files (uncomment if you don't want to track them)
+# *.qgs
+# *.qgz
 *.aux.xml
