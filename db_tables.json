@@ -3,44 +3,14 @@
         "satellite_type_id",
         "name"
     ],
-    "object_types": [
-        "object_type_id",
-        "name"
-    ],
-    "objects": [
-        "object_id",
-        "object_type_id",
-        "name",
-        "shape_location",
-        "description"
-    ],
-    "report_types": [
-        "report_type_id",
-        "name",
-        "description"
-    ],
     "minerals": [
         "mineral_id",
         "name"
-    ],
-    "object_minerals": [
-        "object_id",
-        "mineral_id"
-    ],
-    "reports": [
-        "report_id",
-        "area_of_interest_id",
-        "report_type",
-        "path"
     ],
     "sources": [
         "source_id",
         "name",
         "link"
-    ],
-    "object_areas": [
-        "area_of_interest_id",
-        "object_id"
     ],
     "satellites": [
         "satellite_id",
@@ -79,16 +49,6 @@
         "raw_image_id",
         "processed_image_id"
     ],
-    "processed_images": [
-        "processed_image_id",
-        "coordinate_x",
-        "coordinate_y",
-        "width",
-        "height",
-        "crs",
-        "location",
-        "pixel_size"
-    ],
     "raw_image_channels": [
         "raw_image_id",
         "channel_id",
@@ -107,10 +67,6 @@
         "channel_id",
         "position"
     ],
-    "processed_image_areas": [
-        "processed_image_id",
-        "area_of_interest_id"
-    ],
     "processed_processed_images": [
         "parent_id",
         "child_id"
@@ -125,14 +81,50 @@
         "processing_method_id",
         "sequence"
     ],
-    "areas_of_interest": [
-        "area_of_interest_id",
+    "shape_types": [
+        "shape_type_id",
+        "name",
+        "description"
+    ],
+    "shapes": [
+        "shape_id",
+        "shape_type_id",
+        "name",
+        "crs",
+        "shape_location",
+        "description"
+    ],
+    "shape_minerals": [
+        "shape_id",
+        "mineral_id"
+    ],
+    "shape_shapes": [
+        "parent_id",
+        "child_id"
+    ],
+    "processed_image_shapes": [
+        "processed_image_id",
+        "shape_id"
+    ],
+    "shape_analyzes": [
+        "processed_image_id",
+        "shape_id",
+        "analysis_overgrowing_area_id"
+    ],
+    "processed_images": [
+        "processed_image_id",
         "coordinate_x",
         "coordinate_y",
         "width",
         "height",
         "crs",
-        "shape_location",
-        "description"
+        "location"
+    ],
+    "analyzes_overgrowing_area": [
+        "analysis_overgrowing_area_id",
+        "area_with_vegetation",
+        "area_without_vegetation",
+        "A",
+        "B"
     ]
 }

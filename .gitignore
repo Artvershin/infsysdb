@@ -6,3 +6,6 @@ __pycache__/
 *.qgs
 *.qgz
 *.aux.xml
+
+# Other
+gui/

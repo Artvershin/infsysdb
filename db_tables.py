@@ -1,7 +1,7 @@
 import sqlite3
 import json
 
-DB_PATH = "db.sqlite"
+DB_PATH = "db_clean.sqlite"
 SAVE_FILE = "db_tables.json"
 
 con = sqlite3.connect(DB_PATH)
